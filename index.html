@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <title>Calculadora de Gorjetas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ferramenta para calcular valor a ser pago de gorjetas">
+    <meta name="author" content="Marlon James">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora de Gorjetas</h1>
+    </header>
+    <main>
+        <div id="container">
+            <form id="formTips">
+                <div>
+                    <label for="bill">
+                        <p>Quanto ficou a conta?</p>
+                    </label>
+                    R$ <input type="number" placeholder="100,00" name="bill" id="bill" class="formItems" required>
+                </div>
+                <div>
+                    <label for="serviceQuality">
+                        <p>Como foi o serviço?</p>
+                    </label>
+                    <select name="serviceQuality" id="serviceQuality" class="formItems">
+                        <option disabled selected value="0">- Escolha uma opção -</option>
+                        <option value="0.05">05% - Ruim</option>
+                        <option value="0.1">10% - Aceitável</option>
+                        <option value="0.15">15% - Bom</option>
+                        <option value="0.2">20% - Muito bom</option>
+                        <option value="0.25">25% - Excelente</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="people">
+                        <p>Quantas pessoas dividirão a conta?</p>
+                    </label>
+                    <input type="number" placeholder="2" name="people" id="people" class="formItems" required> pessoas
+                </div>
+                <div id="buttonBox">
+                    <button type="submit" id="submitButton">Calcular!</button>
+                </div>
+            </form>
+            <div id="totalTip">
+                Gorjeta total:
+                R$<span id="tip">0.00</span>
+                <span id="eachPeople">para cada</span>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>
