@@ -60,6 +60,10 @@ header {
     font-weight: bold;
 }
 
+main select {
+    cursor: pointer;
+}
+
 .formItems:focus {
     border: 2px solid orange;
     outline: none;
@@ -92,6 +96,7 @@ header {
     border: 2px solid var(--terciary-color);
     border-radius: 10px;
     box-shadow: 2px 2px 2px black;
+    cursor: pointer;
 }
 
 #totalTip {
