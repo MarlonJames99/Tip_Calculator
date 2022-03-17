@@ -3,9 +3,10 @@
 
 :root {
     --primary-color: #f7f7f7;
-    --main-bg-color: rgba(0, 00, 0, 0.7);
+    --main-bg-color: black;
     --terciary-color: rgba(169, 169, 169, 0.644);
     --main-font: 'Open Sans', sans-serif;
+    --focus-border: orange;
 }
 
 * {
@@ -23,35 +24,45 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top center;
-    width: 100vw;
-    height: 100vh;
     margin: 0 auto;
 }
 
-header {
-    padding: 25px;
-    text-align: center;
-    font-family: 'Source Serif 4', sans-serif;
-    background-color: var(--main-bg-color);
-    color: var(--primary-color);
-    font-size: 18px;
-    text-transform: uppercase;
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #container {
-    height: 250px;
-    width: 250px;
-    margin: 80px auto 100px;
-    padding: 30px 20px 90px 20px;
+    width: 25%;
     background-color: var(--primary-color);
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 3px 3px 3px var(--main-bg-color);
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container #header {
+    font-family: 'Source Serif 4', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px 0px;
+    width: 100%;
+    background-color: var(--main-bg-color);
+    color: var(--primary-color);
+    border-radius: 20px 20px 0 0;
+    border-bottom: 2px solid var(--terciary-color);
 }
 
 #container form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    padding: 15px 10px 0px 10px;
 }
 
 .formItems {
@@ -67,7 +78,7 @@ main select {
 }
 
 .formItems:focus {
-    border: 2px solid orange;
+    border: 2px solid var(--focus-border);
     outline: none;
 }
 
@@ -87,21 +98,32 @@ main select {
     margin: 15px auto 20px;
 }
 
-#submitButton {
+#calcButton {
     padding: 5px;
     font-family: var(--main-font);
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
     color: var(--primary-color);
-    background-color: rgb(0, 0, 0);
+    background-color: var(--main-bg-color);
     border: 2px solid var(--terciary-color);
     border-radius: 10px;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px var(--main-bg-color);
     cursor: pointer;
 }
 
+#calcButton:hover {
+    box-shadow: 3px 3px 5px var(--main-bg-color);
+}
+
+#calcButton:focus {
+    background-color: var(--primary-color);
+    color: var(--main-bg-color);
+    border: 2px solid var(--focus-border);
+}
+
 #totalTip {
+    padding-bottom: 15px;
     font-size: 18px;
     text-align: center;
 }
