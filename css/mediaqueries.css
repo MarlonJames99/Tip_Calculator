@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1280px) {
+    #container {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    #container {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    body {
+        font-size: 15px;
+    }
+    #header h1 {
+        font-size: 25px;
+    }
+    #buttonBox {
+        margin: 5px auto 10px;
+    }
+    #totalTip {
+        font-size: 18px;
+        padding-bottom: 7px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    #container {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    #container {
+        width: 45%;
+    }
+    #container form {
+        padding: 10px 10px 0px 10px;
+        gap: 10px;
+    }
+    #header h1 {
+        font-size: 20px;
+    }
+    #buttonBox {
+        margin: 0px auto 10px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    #container {
+        width: 55%;
+    }
+    #header h1 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    #container {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #container {
+        width: 85%;
+    }
+    #header h1 {
+        font-size: 28px;
+    }
+    body {
+        font-size: 22px;
+    }
+    #calcButton {
+        font-size: 22px;
+    }
+    #totalTip {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    #container {
+        width: 90%;
+    }
+    #header h1 {
+        font-size: 25px;
+    }
+    body {
+        font-size: 18px;
+    }
+    #calcButton {
+        font-size: 18px;
+    }
+    #totalTip {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    #header h1 {
+        font-size: 20px;
+    }
+    body {
+        font-size: 16px;
+    }
+    #calcButton {
+        font-size: 16px;
+    }
+    #totalTip {
+        font-size: 18px;
+    }
+}
