@@ -21,3 +21,4 @@ Além disso também desenvolvi media queries para adequar a aplicação de manei
 
 ## Próximo passo:
 > O próximo passo que tenho planejado para implementar nesta aplicação são melhorias relativas a acessibilidade, pois é importantíssimo que a mesma possa ser utilizada de maneira adequada por todos!
+> > Traduzir HTML e .readme do projeto para inglês.
