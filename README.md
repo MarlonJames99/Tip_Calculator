@@ -21,4 +21,5 @@ In addition, I also developed media queries to adapt the application responsivel
 
 ## Next steps:
 > The next step that I have planned to implement in this application are improvements related to accessibility, as it is very important that it can be used properly by everyone! <br><br>
-> I'll translate the application to english, it means, the title, headings, classes' name, etc.
+> I'll translate the application to english, it means, the title, headings, classes' name, etc. <br><br>
+> It's missing the favicon image.
