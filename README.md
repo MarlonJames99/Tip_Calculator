@@ -1,7 +1,7 @@
 # Tip Calculator
 ## Preview:
-![Preview CdG](https://user-images.githubusercontent.com/97669160/163234027-3c213cc0-8f45-46a6-90ca-41cdf3eb56b6.PNG)
-![Preview CdG 2](https://user-images.githubusercontent.com/97669160/163234155-331e2f1f-6439-4689-ab4f-711ed0429ecf.PNG)
+![TCpreview](https://user-images.githubusercontent.com/97669160/166629838-33041bb1-a597-44d5-893c-74389534c689.PNG)
+![TCpreview2](https://user-images.githubusercontent.com/97669160/166629850-cf7e3125-56d3-47c6-a8d5-4502384d5e8b.PNG)
 
 ## Project:
 This web application is a calculator used to calculate the amount to be tipped in restaurants and other places.
