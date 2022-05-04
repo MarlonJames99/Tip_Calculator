@@ -15,7 +15,7 @@
 }
 
 body {
-    font-size: 16px;
+    font-size: 18px;
     font-family: var(--main-font);
     font-weight: bold;
     background-color: var(--terciary-color);
@@ -48,15 +48,15 @@ main {
 
 #container #header {
     text-align: center;
-    padding: 10px 0px;
+    padding: 12px 0px;
     width: 100%;
     background-color: var(--main-bg-color);
     border-radius: 20px 20px 0 0;
-    border-bottom: 2px solid var(--terciary-color);
+    border-bottom: 3px solid var(--terciary-color);
 }
 
 #header h1 {
-    font-size: 25px;
+    font-size: 27px;
     font-family: 'Source Serif 4', sans-serif;
     color: var(--primary-color);
 }
@@ -64,15 +64,15 @@ main {
 #container form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 16px;
     padding: 15px 10px 0px 10px;
 }
 
 .formItems {
-    padding: 5px;
+    padding: 6px;
     background-color: white;
     font-family: var(--main-font);
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -81,7 +81,7 @@ main select {
 }
 
 .formItems:focus {
-    border: 2px solid var(--focus-border);
+    border: 3px solid var(--focus-border);
     outline: none;
 }
 
@@ -98,19 +98,19 @@ main select {
 }
 
 #buttonBox {
-    margin: 15px auto 20px;
+    margin: 16px auto 22px;
 }
 
 #calcButton {
     padding: 5px;
     font-family: var(--main-font);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
     color: var(--primary-color);
     background-color: var(--main-bg-color);
-    border: 2px solid var(--terciary-color);
-    border-radius: 10px;
+    border: 3px solid var(--terciary-color);
+    border-radius: 12px;
     box-shadow: 2px 2px 2px var(--main-bg-color);
     cursor: pointer;
 }
@@ -120,13 +120,13 @@ main select {
 }
 
 #calcButton:focus {
-    background-color: var(--primary-color);
-    color: var(--main-bg-color);
-    border: 2px solid var(--focus-border);
+    border: 3px solid var(--focus-border);
+    transform: translate(0, 0.2rem);
+    box-shadow:none;
 }
 
 #totalTip {
-    padding-bottom: 15px;
-    font-size: 18px;
+    padding-bottom: 16px;
+    font-size: 20px;
     text-align: center;
 }
