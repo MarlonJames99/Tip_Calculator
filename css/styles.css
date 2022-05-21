@@ -19,7 +19,7 @@ body {
     font-family: var(--main-font);
     font-weight: bold;
     background-color: var(--terciary-color);
-    background-image: url(/img/Background-image.jpg);
+    background-image: url(../img/Background-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
