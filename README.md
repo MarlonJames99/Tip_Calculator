@@ -8,7 +8,7 @@ This web application is a calculator used to calculate the amount to be tipped i
 
 The application has an easy-to-understand interface, with a form where the user must enter the total amount of the bill, what was the quality of the service (the percentage related to the tip is linked to this aspect) and how many people will share the bill. After entering the data, the application returns to the user what will be the total amount to be paid as a tip and will also inform the amount to be paid by each person (in case the bill is divided to more than 1 person).
 
-### App link: https://marlonjames99.github.io/Tip_Calculator/
+### App link: https://tip-calculator-marlonjames.vercel.app
 
 ## Tecnologies:
 <div style="display: inline_block">
